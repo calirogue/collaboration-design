@@ -8,7 +8,8 @@ $ mkdir git-demo
 2. $ cd git-demo
 
 3. Then go back to the page where it was forked and click on the green button that says, "git clone or down".
-$ git clone git@github.com:yourgithubname/collaboration-design.git
+$ git clone https://github.com/bellagrunt/collaboration-design.git
+enter username and password
 
 4. $ cd collaboration-design
 
