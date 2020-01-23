@@ -93,8 +93,22 @@ $ git commit --allow-empty -m "chore: re-trigger build"
 
 
 ## rebase:
+Rebase command integrates changes from one branch into another.
 - rebase last 3 commits:
 $ git rebase -i HEAD~3
 
 - Will run "npm test" command on the last 3 commit 
 $ git rebase HEAD~3 --exec "npm run test"
+
+
+## Upstream
+- upstream: original repo that you have forked
+- origin is your fork
+
+- Now you can collect the latest changes of the upstream repository with fetch. 
+$ git remote add upstream git@github.com:bellagrunt/collaboration-design.git
+Repeat this every time you want to get updates:
+$ git fetch upstream
+
+## Fork
+A fork is a copy of a repo that allows you to freely experiment with changes without affecting the original project.
