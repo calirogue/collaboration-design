@@ -1,5 +1,15 @@
 # Instructions for the project
 
+Fork
+Clone
+Create an upstream to my original - i can send you the git command if you need help with that
+create a branch
+do some work
+git push branch
+do a pull request
+ping me
+ill merge
+
 0. On the project: https://github.com/bellagrunt/collaboration-design on the top right of the github page. 
 Press "Fork" and allow the project to be forked into your github. Then on terminal or powershell do these commands:
 1. Go to the directory you want to make the project in.. 
@@ -29,30 +39,22 @@ origin	git@github.com:yourgithubname/new-game.git (push)
 upstream git@github.com/bellagrunt/collaboration-design (fetch)
 upstream git@github.com/bellagrunt/collaboration-design (push)
 
-7. Get the latest changes from upsteam:
-$ git fetch upstream
-
-8. Create a new branch:
+7. Create a new branch:
 $ git checkout -b yourusername
 
 - Go to index.html and read the html file and answer the question or add a question. 
 (Make changes to the repo)
 
-9. Add the changes you want to local:
+8. Add the changes you want to local:
 $ git add .
 
-10. Commit
+9. Commit
 $ git commit -m "some changes"
 
-11. Push to origin
+10. Push to origin
 $ git push origin branchname
 
-12. Go to github and create pull request
+11. Go to github and create pull request
 
-13. Merge with master
-<!-- 
-13. back to terminal and do:
-$ git rebase upstream/master
-$ git checkout master
-$ git merge upstream/master -->
+12. Merge with master
 
